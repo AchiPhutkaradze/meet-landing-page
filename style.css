@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+
+body {
+    background: #FAFAFA;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heros {
+    margin-top: 56px;
+    width: 110.3%;
+}
+
+#logo {
+    margin-top: 51px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.first-div {
+    display: flex;
+    gap: 24px;
+    margin: 72px 24px 32px 24px;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879D;
+}
+
+button {
+    border: none;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+#download {
+    height: 58px;
+    background: #4D96A9;
+    border-radius: 29px;
+    min-width: 193px;
+    margin: 0 67px 0 67px;
+}
+
+span {
+    color: #8FE3F9;
+}
+
+#question {
+    background: #855FB1;
+    border-radius: 29px;
+    min-width: 139px;
+    height: 58px;
+    margin: 16px 94px 0 94px;
+}
+
+.circle {
+    display: flex;
+    height: 56px;
+    width: 56px;
+    background: #FAFAFA;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+    align-items: center;
+    margin-top: 148px;
+    z-index: 1;
+}
+
+
+h2 {
+    position: relative;
+    left: 20px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #87879D;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 14px;
+    margin-top: 64px;
+}
+
+#women {
+    width: 151px;
+    border-radius: 8px;
+}
+
+#videochatting {
+    width: 151px;
+    border-radius: 8px;
+
+}
+
+#meeting {
+    width: 151px;
+    border-radius: 8px;
+
+}
+
+#man {
+    width: 151px;
+    border-radius: 8px;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4D96A9;
+}
+
+.built {
+    text-align: center;
+    display: flex;
+    gap: 27px;
+    flex-direction: column;
+    margin: 60px 24px 0 24px;
+
+}
+
+h4 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/mobile.jpg);
+    height: 415px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 163px;
+    position: relative;
+    background-position-x: center;
+}
+
+
+#down {
+
+    background: #855FB1;
+    border-radius: 29px;
+    width: 193px;
+    height: 58px;
+}
+
+.stay {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+h5 {
+    font-weight: 900;
+    font-size: 39px;
+    line-height: 44px;
+    text-align: center;
+    color: #FAFAFA;
+
+}
+
+.text-div {
+    margin: 79px 24px 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    flex-direction: column;
+}
+
+.back-color {
+    position: absolute;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    background-color: #4D96A9;
+    top: 0;
+    left: 0;
+}
+
+.x {
+    display: grid;
+    align-items: center;
+    position: relative;
+    top: -175px;
+}
+
+.space-one {
+    top: 0;
+}
+
+.line {
+    opacity: 0.25;
+    border: 1px solid #87879D;
+    width: 1px;
+    height: 84px;
+    justify-self: center;
+    position: absolute;
+}
+
+.button-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#right {
+    display: none;
+}
+
+#left {
+    display: none;
+}
+
+.corners-img {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .first-div {
+        margin: 72px 156px 0 155px;
+    }
+
+    .button-div {
+        flex-direction: row;
+        margin: 32px 55px 0 54px;
+        gap: 16px;
+    }
+
+    #download {
+        margin: 0
+    }
+
+    #question {
+        margin: 0
+    }
+
+    .built {
+        margin: 60px 97px 0 98px;
+
+    }
+
+    h4 {
+        margin: 0 99px 0 102px;
+
+    }
+
+    .text-div {
+        margin: 79px 98px 0 97px;
+        gap: 35px;
+    }
+
+    footer {
+        background-image: url(./assets/tablet.jpg)
+    }
+
+    h5 {
+        margin: 0 82px 0 105px;
+
+    }
+
+    @media screen and (min-width :1440px) {
+        .first-div {
+            display: none;
+        }
+
+        #heros {
+            display: none;
+        }
+
+        #left {
+            display: flex;
+            order: 1;
+        }
+
+        .first-div-desk {
+            order: 2;
+            display: flex;
+            gap: 24px;
+            flex-direction: column;
+        }
+
+        #right {
+            display: flex;
+            order: 3;
+        }
+
+        .corners-img {
+            display: flex;
+            gap: 84px;
+            margin-top: 63px;
+        }
+
+        .first-div {
+            margin: 110px 450px 0 450px;
+        }
+
+        .button-div {
+            margin: 32px 96px 0 96px;
+
+        }
+
+        #logo {
+            margin-top: 83px;
+        }
+
+        h1 {
+            margin: 0 48px 0 47px;
+            font-size: 64px;
+            line-height: 64px;
+        }
+
+        .text {
+            font-size: 18px;
+        }
+
+        #women {
+            width: 255px;
+        }
+
+        #videochatting {
+            width: 255px;
+        }
+
+        #meeting {
+            width: 255px;
+        }
+
+        #man {
+            width: 255px;
+        }
+
+        .images {
+            gap: 30px;
+        }
+
+        .text-div {
+            flex-direction: row;
+            margin: 102px 165px 0 165px;
+        }
+
+        .built {
+            margin: 65px 430px 0 430px;
+
+        }
+
+        footer {
+            background-image: url(./assets/desktop.jpg);
+            height: 300px;
+        }
+        #down{
+                width: 260px;
+        }
+        #down:hover{
+            cursor: pointer;
+            background-color: #B18BDD;
+        }
+        h5{
+            text-align: inherit;
+            margin: 0;
+        }
+        .stay{
+                text-align: left;
+
+        }
+        .text-div{
+            justify-content: center;
+        }
+        #download:hover{
+            cursor: pointer;
+            background-color: #71C0D4;
+        }
+        #question:hover{
+            cursor: pointer;
+            background-color: #B18BDD;
+        }
+
+    }
+}
